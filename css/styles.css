@@ -27,7 +27,7 @@ body {
   background-color: bisque;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 2rem;
-  font-color: red;
+  color: red;
 }
 
 .pic {
@@ -46,4 +46,14 @@ height: auto;
 
 .important-headers h2 {
   color: orange;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  body {
+    background-color: whitesmoke;
+    color: blueviolet;
+  }
+  .important-headers {
+    color: aqua;
+  }
 }
