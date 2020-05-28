@@ -57,3 +57,13 @@ height: auto;
     color: aqua;
   }
 }
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  body {
+    background-color: blanchedalmond;
+    color: rgb(57, 160, 57);
+  }
+  .important-headers {
+    color: #8EE68E;
+  }
+}
