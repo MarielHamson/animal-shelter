@@ -30,6 +30,16 @@ body {
   color: red;
 }
 
+.dark-background {
+  background-color: blue;
+  color: white;
+}
+
+.light-background {
+  background-color: white;
+  color: blue;
+}
+
 .pic {
 max-width: 85%;
 height: auto;
